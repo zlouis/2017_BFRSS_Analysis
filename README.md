@@ -4,16 +4,16 @@ Data obtained from the CDC - https://www.cdc.gov/brfss/annual_data/annual_2017.h
 
 Data extrapolated only contains Rhode island and Maine.
 ## Requirements
-You will need the following packages:
-CSV
-DataFrames
-VegaLite
+You will need the following packages:<br>
+CSV<br>
+DataFrames<br>
+VegaLite<br>
 
 While in Julia, `] add CSV`, `] add DataFrames`, `] add VegaLite`
 
 ## How to run
-Run `download_2017brfss.sh` terminal to download the dataset
-Then run `julia process3.jl` to extract data from the dataset and create plots.
+Run `download_2017brfss.sh` terminal to download the dataset<br>
+Then run `julia process3.jl` to extract data from the dataset and create plots.<br>
 
 By default, the script will run to pull Rhode Island Data.<br>
 To run Maine data extraction and export data, change the following lines in `process3.jl`:
