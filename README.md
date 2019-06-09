@@ -13,7 +13,7 @@ While in Julia, `] add CSV`, `] add DataFrames`, `] add VegaLite`
 
 ## How to run
 Run `download_2017brfss.sh` terminal to download the dataset<br>
-Then run `julia process3.jl` to extract data from the dataset and create plots.<br>
+Then run `julia process3.jl` which will extract the data from the dataset and create plots.<br>
 
 By default, the script will run to pull Rhode Island Data.<br>
 To run Maine data extraction and export data, change the following lines in `process3.jl`:
