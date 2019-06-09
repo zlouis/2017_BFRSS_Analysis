@@ -8,7 +8,7 @@ Data extrapolated only contains Rhode island and Maine.
 
 From terminal run `julia process3.jl`
 
-
+By default, the script will run to pull Rhode Island Data.<br>
 To run Maine data extraction and export data, change the following lines in `process3.jl`:
 
 line 7   - Rename output file to desired name<br>
@@ -16,3 +16,10 @@ line 32  - Set value to `23` for Maine or `44` for Rhode Island (Or any other va
 line 61  - Rename output file to match line 7<br>
 line 70  - Rename output file to match line 7<br>
 line 152 - Rename output file to match line 7<br>
+
+## Guide
+
+`process3.jl` When running this file,
+
+1) It will create an output file to store extracted data<br>
+2) Data values will be replaced with human readable values and be pushed to Dataframe (df)<br>
