@@ -9,7 +9,7 @@ CSV
 DataFrames
 VegaLite
 
-While in Julia, `] add CSV`, `]add DataFrames`, `] add VegaLite`
+While in Julia, `] add CSV`, `] add DataFrames`, `] add VegaLite`
 
 ## How to run
 Run `download_2017brfss.sh` terminal to download the dataset
