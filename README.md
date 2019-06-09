@@ -3,10 +3,17 @@ Data Analysis on population with Arthritis in Rhode Island and Maine.
 Data obtained from the CDC - https://www.cdc.gov/brfss/annual_data/annual_2017.html
 
 Data extrapolated only contains Rhode island and Maine.
+## Requirements
+You will need the following packages:
+CSV
+DataFrames
+VegaLite
+
+While in Julia, `] add CSV`, `]add DataFrames`, `] add VegaLite`
 
 ## How to run
-
-From terminal run `julia process3.jl`
+Run `download_2017brfss.sh` terminal to download the dataset
+Then run `julia process3.jl` to extract data from the dataset and create plots.
 
 By default, the script will run to pull Rhode Island Data.<br>
 To run Maine data extraction and export data, change the following lines in `process3.jl`:
