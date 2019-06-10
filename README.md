@@ -1,4 +1,4 @@
-# 2017_BFRSS_Analysis
+# 2017_BRFSS_Analysis
 Data Analysis on population with Arthritis in Rhode Island and Maine.
 Data obtained from the CDC - https://www.cdc.gov/brfss/annual_data/annual_2017.html
 
@@ -12,7 +12,7 @@ VegaLite<br>
 While in Julia, `] add CSV`, `] add DataFrames`, `] add VegaLite`
 
 ## How to run
-Run `download_2017brfss.sh` terminal to download the dataset<br>
+Run `download_2017brfss.sh` terminal to download BRFSS dataset<br>
 Then run `julia process3.jl` which will extract the data from the dataset and create plots.<br>
 *note, adjust the file locations accordingly<br>
 
