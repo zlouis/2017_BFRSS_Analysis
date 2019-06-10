@@ -17,7 +17,6 @@ Run `download_2017brfss.sh` in terminal to download BRFSS dataset<br>
 Then run `julia brfss_analysis.jl` which will extract the data from the dataset and create plots.<br>
 *Note, adjust the file locations to read from the raw dataset accordingly. See below for details.<br>
 
-
 To run Maine data extraction and export data, change the following lines in `brfss_analysis.jl`:<br>
 
 line 7   - Rename output file to desired name<br>
