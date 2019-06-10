@@ -19,7 +19,6 @@ Then run `julia brfss_analysis.jl` which will extract the data from the dataset 
 
 
 To run Maine data extraction and export data, change the following lines in `brfss_analysis.jl`:<br>
-Make sure file location of raw dataset can be read by the following lines:
 
 line 7   - Rename output file to desired name<br>
 line 32  - Set value to `23` for Maine or `44` for Rhode Island (Or any other value for a different state)<br>
