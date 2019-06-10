@@ -26,7 +26,6 @@ line 152 - Rename output file to match line 7<br>
 
 ## Guide
 
-`process3.jl` When running this file,
-
-1) It will create an output file to store extracted data<br>
-2) Data values will be replaced with human readable values and be pushed to Dataframe (df)<br>
+1) It will create an output file to store extracted data, adjust the file output location accordingly<br>
+2) Data values will be replaced with readable values and be pushed to Dataframe (df)<br>
+3) A copy of Rhode island and Maine extracted dataset are included in the repository<br>
