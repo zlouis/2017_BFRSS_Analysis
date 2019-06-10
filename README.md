@@ -30,3 +30,4 @@ line 152 - Rename output file to match line 7<br>
 1) It will create an output file to store extracted data, adjust the file output location accordingly<br>
 2) Data values will be replaced with readable values and be pushed to Dataframe (df)<br>
 3) A copy of Rhode island and Maine extracted dataset are included in the repository<br>
+4) To run graph 5 for maine, uncomment line 255 - 268
