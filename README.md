@@ -13,6 +13,7 @@ While in Julia, `] add CSV`, `] add DataFrames`, `] add VegaLite`
 
 ## How to run
 Run `download_2017brfss.sh` terminal to download BRFSS dataset<br>
+<br>
 Then run `julia brfss_analysis.jl` which will extract the data from the dataset and create plots.<br>
 *note, adjust the file locations accordingly<br>
 
